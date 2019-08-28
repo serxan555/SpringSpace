@@ -7,8 +7,8 @@ import javax.ws.rs.Path;
 @Path(value = "/main")
 public class Center {
 
-    @GET
-    public String name() {
-        return "SS.555";
-    }
+            @GET
+            public String name() {
+                return "SS.555";
+            }
 }
